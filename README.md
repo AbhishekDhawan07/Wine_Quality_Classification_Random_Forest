@@ -1,4 +1,4 @@
-# 🍷 Wine Quality Classification Random_Forest
+# 🍷 Wine Quality Classification Random Forest
 
 A supervised machine learning project that predicts the quality of red
 wine using a **Random Forest Classifier**. This project demonstrates a
