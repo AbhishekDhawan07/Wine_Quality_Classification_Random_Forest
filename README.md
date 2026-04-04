@@ -68,7 +68,7 @@ dioxide - Density - pH - Sulphates - Alcohol
 
 ## Project Workflow
 
-### 🟢 Step 1 --- Data Loading
+### 🟢 Step 1 - Data Loading
 
 ``` python
 df = pd.read_csv("winequality-red.csv")
@@ -77,7 +77,7 @@ df.head()
 
 ------------------------------------------------------------------------
 
-### 🔵 Step 2 --- Data Exploration
+### 🔵 Step 2 - Data Exploration
 
 -   Check dataset shape, info, and summary statistics
 -   Identify missing values
@@ -86,7 +86,7 @@ df.head()
 
 ------------------------------------------------------------------------
 
-### 🟡 Step 3 --- Data Preprocessing
+### 🟡 Step 3 - Data Preprocessing
 
 -   Handle missing values (if any)
 -   Feature scaling (if applied)
@@ -99,7 +99,7 @@ y = df["quality"]
 
 ------------------------------------------------------------------------
 
-### 🟠 Step 4 --- Train-Test Split
+### 🟠 Step 4 - Train-Test Split
 
 ``` python
 X_train, X_test, y_train, y_test = train_test_split(
@@ -109,7 +109,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 ------------------------------------------------------------------------
 
-### 🔴 Step 5 --- Model Training (Random Forest)
+### 🔴 Step 5 - Model Training (Random Forest)
 
 ``` python
 model = RandomForestClassifier(n_estimators=100, random_state=42)
@@ -118,7 +118,7 @@ model.fit(X_train, y_train)
 
 ------------------------------------------------------------------------
 
-### 🟣 Step 6 --- Model Evaluation
+### 🟣 Step 6 - Model Evaluation
 
 ``` python
 y_pred = model.predict(X_test)
@@ -127,7 +127,7 @@ accuracy = accuracy_score(y_test, y_pred)
 
 ------------------------------------------------------------------------
 
-### ⚫ Step 7 --- Prediction System
+### ⚫ Step 7 - Prediction System
 
 ``` python
 sample = X.iloc[0].values.reshape(1, -1)
