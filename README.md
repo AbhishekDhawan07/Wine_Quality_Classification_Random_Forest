@@ -2,7 +2,7 @@
 
 A supervised machine learning project that predicts the quality of red
 wine using a **Random Forest Classifier**. This project demonstrates a
-complete ML pipeline --- from data exploration and preprocessing to
+complete ML pipeline - from data exploration and preprocessing to
 model training, evaluation, and prediction.
 
 ------------------------------------------------------------------------
@@ -26,7 +26,7 @@ model training, evaluation, and prediction.
 
 ## Project Overview
 
-This project builds a machine learning model to classify the **quality
+This project is about building a machine learning model to classify the **quality
 of red wine** based on its chemical properties.
 
 Using a **Random Forest Classifier**, the model learns patterns from
